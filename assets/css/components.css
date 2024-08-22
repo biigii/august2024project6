@@ -1,94 +1,21 @@
-/* box model */
-/* .selector {
-  width: 100px;
-  height: 100px;
-  padding: 50px;
-  margin: 50px;
-  border: 10 solid;
-} */
-
 .🍎 {
-    background-color: #0f0;
+    /*  border-size makes the border and padding included inside the width and height */
+    box-sizing: border-box;
     width: 400px;
     height: 300px;
-    /* it goes clockwise and is applied from top */
-    /* top right bottom left */
-    /* padding: 50px; */
-    /* padding: 50px 50px 50px 50px;  */
-    /* padding: 10px 75px 0 100px;
+    background-color: #f11;
+    padding: 50px;
+    /* width = 300 + 50 */
+    /* height = 300 + 50 */
+    border: 20px solid;
+    /* width = 300 + 50 + 20 */
+    /* height = 300 + 50 + 20 */
 
-    padding:25px 50px 25px 50px;
-    padding: 25px 50px; */
-
-    /* padding-top: 50px;
-    padding-left: 60px;
-    padding-bottom: 0;
-    padding-right: 30px; */
-    /* margin: 30px; */
-    /* margin: 30px 30px 30px 30px; */
-    /* margin: 40px 10px 40px 10px; */
-    /* margin: 40px 10px; */
-
-    /* margin-top: 100px;
-    margin-right: 10px;
-    margin-left: 50px;
-    margin-bottom: 50px; */
-
-    /* border-width
-    border-color
-    border-style */
-    color: #f00;
-    border-width: 10px;
-    /* solid dashed double and dotted */
-    border-style:solid;
-    border-color: #ff0;
+    /* margin: 20px; */
 }
 
 .🍊 {
-    background-color: #00f;
-    color: #fff;
     width: 400px;
     height: 300px;
-    /* border-style: solid;
-    border-width: 10px; */
-
-    /* width style color */
-    border: 30px solid #f21;
-    /* margin: 100px; */
+    background-color: #f0f;
 }
-
-body {
-    background-color: #bbb;
-}
-
-.🍌 {
-    width: 400px;
-    height: 400px;
-    background-color: #f11;
-    border: 20px solid;
-    /* border-radius: 40px; */
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 100px;
-}
-
-.🥝 {
-    width: 400px;
-    height: 400px;
-    background-color: #00f;
-    /* border-bottom-style: solid;
-    border-bottom-width: 20px;
-    border-bottom-color: #fff; */
-    border-left: 40px solid #fff;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-}
-
-.🍞 {
-    width: 400px;
-    height: 400px;
-    background-color: #fff;
-    border: 10px solid;
-    border-radius: 50%;
-    padding: 20px;
-}
-
