@@ -1,0 +1,28 @@
+/* box model */
+
+/*  1 - everything on html comes in shape of a box/rectangular/square */
+
+/* 2 - total size of an element consists of several factors and not just width and height */
+
+h1 {
+    /* display: none; */
+    /* opacity: 0%; */
+}
+
+nav.navigation a {
+  display: block;
+}
+
+.box p {
+  display: inline;
+}
+
+/* total size of an element is calculated by adding width, height, margin, padding and borer */
+
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin: 50px;
+    border: 10px solid;
+}
