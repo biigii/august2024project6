@@ -1,36 +1,94 @@
+/* box model */
+/* .selector {
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  margin: 50px;
+  border: 10 solid;
+} */
 
-a {
-    background-color: #f33;
-    /* font-size: 96px; */
+.🍎 {
+    background-color: #0f0;
+    width: 400px;
+    height: 300px;
+    /* it goes clockwise and is applied from top */
+    /* top right bottom left */
+    /* padding: 50px; */
+    /* padding: 50px 50px 50px 50px;  */
+    /* padding: 10px 75px 0 100px;
+
+    padding:25px 50px 25px 50px;
+    padding: 25px 50px; */
+
+    /* padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 0;
+    padding-right: 30px; */
+    /* margin: 30px; */
+    /* margin: 30px 30px 30px 30px; */
+    /* margin: 40px 10px 40px 10px; */
+    /* margin: 40px 10px; */
+
+    /* margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px; */
+
+    /* border-width
+    border-color
+    border-style */
+    color: #f00;
+    border-width: 10px;
+    /* solid dashed double and dotted */
+    border-style:solid;
+    border-color: #ff0;
 }
 
-button {
-    width: 150px;
-    height: 40px;
+.🍊 {
+    background-color: #00f;
+    color: #fff;
+    width: 400px;
+    height: 300px;
+    /* border-style: solid;
+    border-width: 10px; */
+
+    /* width style color */
+    border: 30px solid #f21;
+    /* margin: 100px; */
 }
 
-.parent {
-    /* width of a block element is 100% of its parent */
-    /* background-color: #f33; */
-    /* display: block;
-    width: 100%; */
-
-    /* we have both relative and absolute length */
-    /* pixel = 1/96 of an inch */
-
-    /* width: 50%; */
-    /* height: 400px; */
-    /* overflow: scroll; */
+body {
+    background-color: #bbb;
 }
 
-
-.parent {
-  width: 50%;
-  background-color: #a5ef13;
-  height: 600px;
+.🍌 {
+    width: 400px;
+    height: 400px;
+    background-color: #f11;
+    border: 20px solid;
+    /* border-radius: 40px; */
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
 }
 
-.child {
-    background-color: #f33;
-    width: 50%;
+.🥝 {
+    width: 400px;
+    height: 400px;
+    background-color: #00f;
+    /* border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #fff; */
+    border-left: 40px solid #fff;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
+
+.🍞 {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border: 10px solid;
+    border-radius: 50%;
+    padding: 20px;
+}
+
