@@ -1,28 +1,36 @@
-/* box model */
 
-/*  1 - everything on html comes in shape of a box/rectangular/square */
-
-/* 2 - total size of an element consists of several factors and not just width and height */
-
-h1 {
-    /* display: none; */
-    /* opacity: 0%; */
+a {
+    background-color: #f33;
+    /* font-size: 96px; */
 }
 
-nav.navigation a {
-  display: block;
+button {
+    width: 150px;
+    height: 40px;
 }
 
-.box p {
-  display: inline;
+.parent {
+    /* width of a block element is 100% of its parent */
+    /* background-color: #f33; */
+    /* display: block;
+    width: 100%; */
+
+    /* we have both relative and absolute length */
+    /* pixel = 1/96 of an inch */
+
+    /* width: 50%; */
+    /* height: 400px; */
+    /* overflow: scroll; */
 }
 
-/* total size of an element is calculated by adding width, height, margin, padding and borer */
 
-.box {
-    width: 200px;
-    height: 200px;
-    padding: 50px;
-    margin: 50px;
-    border: 10px solid;
+.parent {
+  width: 50%;
+  background-color: #a5ef13;
+  height: 600px;
+}
+
+.child {
+    background-color: #f33;
+    width: 50%;
 }
